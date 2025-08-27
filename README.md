@@ -1,2 +1,2 @@
 # DevSoc-Personal-Website
-A personal website for the DevSoc Training Program 25T3
+A personal website for the DevSoc Training Program 25T3 Application
