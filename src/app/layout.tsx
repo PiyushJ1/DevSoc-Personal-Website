@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Piyush Jha | DevSoc Trainee Application",
+  title: "Piyush Jha | Home",
   description: "",
 };
 
