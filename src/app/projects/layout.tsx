@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Piyush Jha | Home",
+  title: "Piyush Jha | Projects",
   description: "",
 };
 
