@@ -9,10 +9,13 @@ export default function Home() {
   return (
     <>
     <header className={styles.navbar}>
-      <div className={styles.navbarContaienr}>
-        <center>
-          About | Projects | Dreams | Contact
-        </center>
+      <div className={styles.navbarContainer}>
+        <div className={styles.navbarCentre}>
+          <Link href="/about" className={styles.navLink}>About</Link>
+          <Link href="/projects" className={styles.navLink}>Projects</Link>
+          <Link href="/contact" className={styles.navLink}>Contact</Link>
+          {/* <Link href="" className={styles.navLink}>Dreams</Link> */}
+        </div>
       </div>
     </header>
 
@@ -54,6 +57,13 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <div className={styles.contactContainer}>
+        <div>
+
+        </div>
+      </div>
+
     </main>
 
     <section className={styles.aboutSection}>
@@ -63,8 +73,8 @@ export default function Home() {
         </h2>
 
         <p className={styles.aboutText}>
-          I'm a 2nd year Software Engineering (Honours) Student at the University of New South Wales.
-          I love to tackle challenging problems and creating solutions that are impactful.
+          Hey! I'm Piyush Jha, a 2nd year Software Engineering (Honours) Student at the University of New South Wales.
+          I love to tackle challenging problems and creating impactful solutions.
 
           Here are a few programming languages and technologies I'm familiar with: 
         </p>
@@ -81,6 +91,10 @@ export default function Home() {
         <p className={styles.aboutText}>
         Outside of tech, I enjoy listening to music and playing the digital piano. Here are some of my
         favourite music albums:
+
+        <div className={styles.musicAlbums}>
+
+        </div>
 
         I also enjoy all things related to fitness like running and weightlifting.
         </p>
@@ -108,16 +122,28 @@ export default function Home() {
                 <li className={styles.projectTech}>Next.js</li>
                 <li className={styles.projectTech}>PostgreSQL</li>
                 <li className={styles.projectTech}>Prisma</li>
-              </ul> className=styles
+              </ul>
+              <div className={styles.projectLinks}>
+                <a href="https://studyintel.app" target="_blank">Link</a>
+              </div>
             </div>
           </div>
 
-          <div className={styles.projectLinks}>
-            <a href="https://google.com">Google</a>
+          <div className={styles.projectCard}>
+            <div className={styles.projectContent}>
+              <h3 className={styles.projectTitle}>SQLite Replica</h3>
+              <div className={styles.description}>
+                <p>Project info here</p>
+              </div>
+
+              <ul className={styles.projectTechStack}>
+                <li className={styles.projectTech}>C</li>
+              </ul>
+              <div className={styles.projectLinks}>
+                <a href="https://google.com" target="_blank">Gooe</a>
+              </div>
+            </div>
           </div>
-
-
-
 
         </div>
       </div>
@@ -132,6 +158,7 @@ export default function Home() {
         <p>Since the theme of the website is Dreams, I thought I would quickly mention my own dreams and aspirations for the future.
           I want to become a Backend Software Engineer with a focus on system design. Eventually, I wish to 
           build and scale a tech startup, focusing on solving a real problem and making a positive impact on the world. 
+          Another dream that I have is to be a trainee of DevSoc's training program ;)
         </p>
       </div>
     </section>
