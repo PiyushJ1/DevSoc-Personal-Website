@@ -1,8 +1,6 @@
 'use client'
 
-import Image from "next/image";
 import styles from "./Home.module.css"
-import DecryptedText from "../components/DecryptedText";
 import Link from "next/link";
 
 export default function Home() {
@@ -16,44 +14,19 @@ export default function Home() {
           <Link href="/contact" className={styles.navLink}>Contact</Link>
         </div>
       </div>
+      
     </header>
 
     <main className={styles.heroContainer}>
       <div className={styles.contentContainer}>
-        <div className={styles.mainTitle}>
-          <DecryptedText
-            text="Hi! I'm Piyush"
-            speed={60}
-            maxIterations={20}
-            className={styles.highlightUser}
-            parentClassName=""
-            encryptedClassName=""
-            animateOn="view"
-          />
-        </div>
+
 
         <h2 className={styles.subtitle}>
-          <DecryptedText
-            text="I build and break tech for fun."
-            speed={60}
-            maxIterations={20}
-            className={styles.highlightUser}
-            parentClassName=""
-            encryptedClassName=""
-            animateOn="view"
-          />
+          
         </h2>
 
         <div className={styles.description}>
-          <DecryptedText
-            text="Software Engineering Student @ UNSW"
-            speed={60}
-            maxIterations={35}
-            className={styles.highlightUser}
-            parentClassName=""
-            encryptedClassName=""
-            animateOn="view"
-          />
+          
         </div>
       </div>
 
