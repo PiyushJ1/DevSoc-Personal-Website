@@ -19,10 +19,16 @@ export default function AboutPage() {
 			</div>
 		</header>
 		
-		
-
-
-
+		<Particles
+        particleColors={['#478c9cff', '#ffd000ff']}
+        particleCount={500}
+        particleSpread={8}
+        speed={0.3}
+        particleBaseSize={100}
+        moveParticlesOnHover={true}
+        alphaParticles={false}
+        disableRotation={false}
+      />
 		</div>
 		</>
 	);
