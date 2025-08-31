@@ -1,4 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: rgba(16, 5, 64, 0.5);
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(51, 32, 126);
+}
 
+.navContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.navCentre {
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: content;
+  margin: auto;
+}
+
+.navLink {
+  color: rgb(251, 251, 251);
+  font-weight: 700;
+}
 
 .heroContainer {
   display: flex;

@@ -8,41 +8,41 @@ export default function Home() {
   return (
     <>
     <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+      <header className={styles.navbar}>
+        <div className={styles.navContainer}>
+          <div className={styles.navCentre}>
+            <Link href="#about" className={styles.navLink}>About</Link>
+            <Link href="#projects" className={styles.navLink}>Projects</Link>
+            <Link href="#dreams" className={styles.navLink}>Dreams</Link>
+            <Link href="#contact" className={styles.navLink}>Contact</Link>
+          </div>
+        </div>
+      </header>
+
       <div
         style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          textAlign: 'center',
+          // textAlign: 'center',
           zIndex: 1,
         }}
       >
-
-      <header className={styles.navbar}>
-        <div className={styles.navbarContainer}>
-          <div className={styles.navbarCentre}>
-            <Link href="#about" className={styles.navLink}>About</Link>
-            <Link href="#projects" className={styles.navLink}>Projects</Link>
-            <Link href="#contact" className={styles.navLink}>Contact</Link>
-            <Link href="#dreams" className={styles.navLink}>Dreams</Link>
+        <main className={styles.heroContainer}>
+          <div className={styles.contentCreator}>
+            <h1 className={styles.mainTitle}>Hi, I'm Piyush 💤</h1>
+            
+            
           </div>
-        </div>
-      </header>
+  
+        </main>
 
-      <main className={styles.heroContainer}>
-        <div className={styles.contentCreator}>
-          <h1 className={styles.mainTitle}>Hi, I'm Piyush 💤</h1>
-          
-          
-        </div>
-
-      </main>
-
-      
-
-
+        
       </div>
+
+
+
       <Particles
         particleColors={['#478c9cff', '#ffd000ff']}
         particleCount={500}
@@ -53,7 +53,7 @@ export default function Home() {
         alphaParticles={false}
         disableRotation={false}
       />
-    </div>
+      </div>
     </>
   );
 }
@@ -206,4 +206,6 @@ export default function Home() {
 //     </>
 //   );
 // }
+
+
 
