@@ -3,7 +3,6 @@
 import styles from "./Home.module.css"
 import Link from "next/link";
 import Particles from "@/components/Particles";
-import SplitText from "@/components/SplitText";
 
 export default function Home() {
   return (
@@ -12,6 +11,7 @@ export default function Home() {
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>
+            <Link href="/" className={styles.navLink}>Home</Link>
             <Link href="/about" className={styles.navLink}>About</Link>
             <Link href="/projects" className={styles.navLink}>Projects</Link>
             <Link href="/contact" className={styles.navLink}>Contact</Link>
@@ -31,12 +31,15 @@ export default function Home() {
       >
         <main className={styles.heroContainer}>
           <div className={styles.contentCreator}>
-            <h2 className={styles.mainTitle}>Hi, I'm Piyush 💤</h2>
-
+            <h2 className={styles.mainTitle}>
+            Hi, I'm Piyush <span className={styles.bouncyEmoji}>💤</span>
+          </h2>
           <p>2nd Year Software Engineering (Honours) Student @ UNSW</p>
-
-
-
+          <div className={styles.dreamNavigation}>
+            <Link href="/career" className={styles.dreamLink}>💭</Link>
+            <Link href="/career" className={styles.dreamLink}>✨</Link>
+            <Link href="/career" className={styles.dreamLink}>🌟</Link>
+          </div>
 
           </div>
         </main>
