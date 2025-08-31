@@ -3,6 +3,7 @@
 import styles from "./Home.module.css"
 import Link from "next/link";
 import Particles from "@/components/Particles";
+import SplitText from "@/components/SplitText";
 
 export default function Home() {
   return (
@@ -25,23 +26,30 @@ export default function Home() {
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          // textAlign: 'center',
+          textAlign: 'center',
           zIndex: 1,
         }}
       >
         <main className={styles.heroContainer}>
           <div className={styles.contentCreator}>
-            <h1 className={styles.mainTitle}>Hi, I'm Piyush 💤</h1>
-            
-            
+            <SplitText
+            text="Hi, I'm Piyush 💤"
+            className={styles.mainTitle}
+            delay={100}
+            duration={0.6}
+            ease="power3.out"
+            splitType="chars"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+            threshold={0.1}
+            rootMargin="-100px"
+            textAlign="center"
+          />
+
+            <p className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl">2nd Year Software Engineering (Honours) Student @ UNSW</p>
           </div>
-  
         </main>
-
-        
       </div>
-
-
 
       <Particles
         particleColors={['#478c9cff', '#ffd000ff']}
