@@ -1,5 +1,6 @@
+
+
 .heroContainer {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,10 +22,9 @@
 .mainTitle {
   font-size: 65;
   font-weight: 700;
+  min-width: 600px;
   background: white;
-  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
   animation: fadeIn 0.8s ease-out forwards;
   line-height: 1.2;
   margin-bottom: 1.5rem;

@@ -8,43 +8,52 @@ export default function Home() {
   return (
     <>
     <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-    <div
-      style={{
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        textAlign: 'center',
-        zIndex: 1,
-      }}
-    >
+      <div
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          textAlign: 'center',
+          zIndex: 1,
+        }}
+      >
 
-    <header className={styles.navbar}>
-       <div className={styles.navbarContainer}>
-         <div className={styles.navbarCentre}>
-           <Link href="#about" className={styles.navLink}>About</Link>
-           <Link href="#projects" className={styles.navLink}>Projects</Link>
-           <Link href="#contact" className={styles.navLink}>Contact</Link>
-         </div>
-       </div>
-     </header>
+      <header className={styles.navbar}>
+        <div className={styles.navbarContainer}>
+          <div className={styles.navbarCentre}>
+            <Link href="#about" className={styles.navLink}>About</Link>
+            <Link href="#projects" className={styles.navLink}>Projects</Link>
+            <Link href="#contact" className={styles.navLink}>Contact</Link>
+            <Link href="#dreams" className={styles.navLink}>Dreams</Link>
+          </div>
+        </div>
+      </header>
 
-      <main>
-        Hi, I'm Piyush 👋 
+      <main className={styles.heroContainer}>
+        <div className={styles.contentCreator}>
+          <h1 className={styles.mainTitle}>Hi, I'm Piyush 💤</h1>
+          
+          
+        </div>
+
       </main>
 
+      
+
+
+      </div>
+      <Particles
+        particleColors={['#478c9cff', '#ffd000ff']}
+        particleCount={500}
+        particleSpread={8}
+        speed={0.3}
+        particleBaseSize={100}
+        moveParticlesOnHover={true}
+        alphaParticles={false}
+        disableRotation={false}
+      />
     </div>
-    <Particles
-      particleColors={['#478c9cff', '#ffd000ff']}
-      particleCount={500}
-      particleSpread={8}
-      speed={0.3}
-      particleBaseSize={100}
-      moveParticlesOnHover={true}
-      alphaParticles={false}
-      disableRotation={false}
-    />
-  </div>
     </>
   );
 }
