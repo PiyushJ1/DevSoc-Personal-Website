@@ -18,6 +18,17 @@ export default function Home() {
         zIndex: 1,
       }}
     >
+
+    <header className={styles.navbar}>
+       <div className={styles.navbarContainer}>
+         <div className={styles.navbarCentre}>
+           <Link href="#about" className={styles.navLink}>About</Link>
+           <Link href="#projects" className={styles.navLink}>Projects</Link>
+           <Link href="#contact" className={styles.navLink}>Contact</Link>
+         </div>
+       </div>
+     </header>
+
       <main>
         Hi, I'm Piyush 👋 
       </main>
