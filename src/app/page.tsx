@@ -12,10 +12,9 @@ export default function Home() {
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>
-            <Link href="#about" className={styles.navLink}>About</Link>
-            <Link href="#projects" className={styles.navLink}>Projects</Link>
-            <Link href="#dreams" className={styles.navLink}>Dreams</Link>
-            <Link href="#contact" className={styles.navLink}>Contact</Link>
+            <Link href="/about" className={styles.navLink}>About</Link>
+            <Link href="/projects" className={styles.navLink}>Projects</Link>
+            <Link href="/contact" className={styles.navLink}>Contact</Link>
           </div>
         </div>
       </header>
@@ -32,21 +31,13 @@ export default function Home() {
       >
         <main className={styles.heroContainer}>
           <div className={styles.contentCreator}>
-            <SplitText
-            text="Hi, I'm Piyush 💤"
-            className={styles.mainTitle}
-            delay={100}
-            duration={0.6}
-            ease="power3.out"
-            splitType="chars"
-            from={{ opacity: 0, y: 40 }}
-            to={{ opacity: 1, y: 0 }}
-            threshold={0.1}
-            rootMargin="-100px"
-            textAlign="center"
-          />
+            <h2 className={styles.mainTitle}>Hi, I'm Piyush 💤</h2>
 
-            <p className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl">2nd Year Software Engineering (Honours) Student @ UNSW</p>
+          <p>2nd Year Software Engineering (Honours) Student @ UNSW</p>
+
+
+
+
           </div>
         </main>
       </div>
