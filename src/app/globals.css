@@ -29,7 +29,7 @@ html,
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: linear-gradient(145deg, #000000, #0f012f, #815b01);
+  background: linear-gradient(145deg, #000000, #0f012f, #006e56);
   background-size: 400% 400%;
   animation: aurora 15s ease infinite;
 }

@@ -14,10 +14,7 @@ export default function Home() {
               <Link href="/home" className={styles.navLink}>
                 🏠 Home
               </Link>
-              <Link href="" className={styles.divider}>
-                {" "}
-                |{" "}
-              </Link>
+              <span className={styles.divider}> | </span>
               <Link href="/about" className={styles.navLink}>
                 About 💭
               </Link>

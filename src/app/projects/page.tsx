@@ -27,7 +27,9 @@ export default function ProjectsPage() {
           </div>
         </header>
 
-        <div className={styles.container}>hello</div>
+        <div className={styles.sectionContainer}>
+          <h2 className={styles.sectionTitle}>Projects 💡</h2>
+        </div>
       </div>
     </>
   );

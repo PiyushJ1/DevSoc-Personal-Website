@@ -33,8 +33,8 @@ export default function AboutPage() {
           <h2 className={styles.sectionTitle}>About Me 💭</h2>
 
           <p className={styles.intro}>
-            Hey! My name is Piyush Jha and I&apos;m 19 years old. Currently, I&apos;m a
-            second-year Software Engineering (Honours) student at the{" "}
+            Hey! My name is Piyush Jha and I&apos;m 19 years old. Currently,
+            I&apos;m a second-year Software Engineering (Honours) student at the{" "}
             <a
               style={{ fontStyle: "italic", textDecoration: "underline" }}
               href="https://unsw.edu.au"
@@ -87,17 +87,17 @@ export default function AboutPage() {
                   marginTop: "0.5rem",
                 }}
               >
-                Here&apos;s me with my friend (I&apos;m on the left, sorry I couldn&apos;t find
-                a better picture 😭)
+                Here&apos;s me with my friend (I&apos;m on the left, sorry I
+                couldn&apos;t find a better picture 😭)
               </p>
             </div>
           </div>
 
           <p className={styles.description}>
-            I&apos;m passionate about software development, particularly in web and
-            cloud technologies. I also really like system design and software
-            architecture, exploring how software can scale and handle millions
-            of users. <br />
+            I&apos;m passionate about software development, particularly in web
+            and cloud technologies. I also really like system design and
+            software architecture, exploring how software can scale and handle
+            millions of users. <br />
             <br />
             Learning the concept behind real-world systems and how big tech
             companies solve complex engineering challenges at scale is pretty
@@ -105,8 +105,8 @@ export default function AboutPage() {
           </p>
 
           <p className={styles.description}>
-            Some programming languages and frameworks/tools I&apos;m familiar with
-            are:
+            Some programming languages and frameworks/tools I&apos;m familiar
+            with are:
             <br />
             <div
               style={{
@@ -179,8 +179,8 @@ export default function AboutPage() {
           </p>
 
           <p className={styles.photoIntro}>
-            Oh by the way, I also like photography. Here&apos;s some photos that I
-            think are cool:
+            Oh by the way, I also like photography. Here are some cool photos
+            I&apos;ve taken
           </p>
 
           <div className={styles.photos}>
