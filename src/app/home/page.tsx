@@ -34,20 +34,12 @@ export default function Home() {
             <h2 className={styles.mainTitle}>
             Hi, I'm Piyush 
             <span className={styles.bouncyEmoji}>
-                💤
+              💤
             </span>
           </h2>
-          <img src="/sleep.png" className={styles.sleepImg}/>
-          <p>2nd Year Software Engineering (Honours) Student @ UNSW</p>
           
-          <div className={styles.dreamNavigation}>
-            <br></br>
-            <p>See what I'm dreaming about:</p>
-            <Link href="/career" className={styles.dreamLink}>💫</Link>
-            <Link href="/career" className={styles.dreamLink}>✨</Link>
-            <Link href="/career" className={styles.dreamLink}>🌟</Link>
-          </div>
-
+          <h2>2nd Year Software Engineering (Honours) Student @ UNSW</h2>
+          
           </div>
         </main>
       </div>
@@ -104,7 +96,7 @@ export default function Home() {
 //         <div>
 
 //         </div>
-//       </div>
+//       </div>;
 
 //     </main>
 

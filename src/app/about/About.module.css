@@ -21,7 +21,7 @@
   max-width: 250px;
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 2rem;
   justify-content: space-between;
   flex: content;
   margin: auto;
@@ -30,4 +30,38 @@
 .navLink {
   color: rgb(251, 251, 251);
   font-weight: 700;
+}
+
+.sectionContainer {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+
+.sectionTitle {
+  font-size: 40;
+  min-width: 50rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  background-clip: text;
+}
+
+.photoPics {
+  min-width: 75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0rem;
 }
