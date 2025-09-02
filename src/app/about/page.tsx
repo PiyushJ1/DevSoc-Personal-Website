@@ -13,19 +13,20 @@ export default function AboutPage() {
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>
-            <Link href="/home" className={styles.navLink}>Home</Link>
-            <Link href="/about" className={styles.navLink}>About</Link>
-            <Link href="/projects" className={styles.navLink}>Projects</Link>
-            <Link href="/contact" className={styles.navLink}>Contact</Link>
+            <Link href="/home" className={styles.navLink}>🏠 Home</Link>
+            <Link href="" className={styles.divider}> | </Link>
+            <Link href="/about" className={styles.navLink}>About 💭</Link>
+            <Link href="/projects" className={styles.navLink}>Projects 💡</Link>
+            <Link href="/contact" className={styles.navLink}>Contact 📥</Link>
           </div>
         </div>
       </header>
       
       <div className={styles.sectionContainer}>        
-        <h2 className={styles.sectionTitle}>About Me 🌌</h2>
+        <h2 className={styles.sectionTitle}>About Me 💭</h2>
 
         <p className={styles.intro}>
-          Hey! My name is Piyush Jha, and I'm a second-year student at the {" "}
+          Hey! My name is Piyush Jha and I'm 19 years old. Currently, I'm a second-year student at the {" "}
           <a style={{fontStyle: 'italic', textDecoration: 'underline'}} href="https://unsw.edu.au" target="blank">University of New South Wales</a>
           . I love to tackle challenging technical problems and creating impactful
           solutions. 
@@ -57,7 +58,7 @@ export default function AboutPage() {
               displayOverlayContent={true}
             />
             <p style={{ fontFamily: 'monospace', fontSize: '14px', textAlign: 'center', color: 'white', maxWidth: '400px', marginTop: '0.5rem' }}>
-              Here's me with my friend (I'm on the left)
+              Here's me with my friend (I'm on the left, sorry I couldn't find a better picture 😭)
             </p>
           </div>
         </div>
@@ -66,8 +67,10 @@ export default function AboutPage() {
 
         <p className={styles.description}>
           I'm passionate about software development, particularly in web and cloud
-          technologies. I also enjoy learning about system design and how software systems can
-          be built to handle large scale demands.
+          technologies. I also really like system design and software architecture,
+          exploring software can scale and handle millions of users. <br/><br/>
+          Learning the concept behind real-world systems and how big 
+          tech companies solve complex engineering challenges at scale is pretty interesting.
         </p>
 
         <p className={styles.description}>
@@ -89,7 +92,7 @@ export default function AboutPage() {
           my friends, listening to my curated music playlists or playing the digital piano.
         </p>
 
-        <p>Oh by the way, I also like photography. Here's some photos that I think are cool:</p>
+        <p className={styles.photoIntro}>Oh by the way, I also like photography. Here's some photos that I think are cool:</p>
 
         <div className={styles.photos}>
           <TiltedCard
@@ -160,16 +163,12 @@ export default function AboutPage() {
             containerWidth="300px"
             imageHeight="200px"
             imageWidth="200px"
-            rotateAmplitude={20}
+            rotateAmplitude={0}
             scaleOnHover={1.2}
             showMobileWarning={false}
             showTooltip={false}
             displayOverlayContent={false}
           />
-
-
-            
-            
         </div>
       </div>
     </div>

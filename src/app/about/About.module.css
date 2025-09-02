@@ -22,9 +22,13 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  justify-content: space-between;
-  flex: content;
-  margin: auto;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: none;
+}
+
+.divider {
+  font-size: 18px;
 }
 
 .navLink {
@@ -81,14 +85,12 @@
   font-size: 18px;
 }
 
-.photos {
-  display: flex;
-}
-
-.dreamsContainer {
+.photoIntro {
+  font-family: monospace;
+  font-size: 16px;
   
 }
 
-.dreamEmoji {
-  font-size: 25;
+.photos {
+  display: flex;
 }
