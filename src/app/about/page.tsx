@@ -9,7 +9,6 @@ export default function AboutPage() {
   return (
     <>
     <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }} className={styles.content}>
-
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>
@@ -26,7 +25,8 @@ export default function AboutPage() {
         <h2 className={styles.sectionTitle}>About Me 💭</h2>
 
         <p className={styles.intro}>
-          Hey! My name is Piyush Jha and I'm 19 years old. Currently, I'm a second-year student at the {" "}
+          Hey! My name is Piyush Jha and I'm 19 years old. Currently, I'm a second-year 
+          Software Engineering (Honours) student at the {" "}
           <a style={{fontStyle: 'italic', textDecoration: 'underline'}} href="https://unsw.edu.au" target="blank">University of New South Wales</a>
           . I love to tackle challenging technical problems and creating impactful
           solutions. 
@@ -68,7 +68,7 @@ export default function AboutPage() {
         <p className={styles.description}>
           I'm passionate about software development, particularly in web and cloud
           technologies. I also really like system design and software architecture,
-          exploring software can scale and handle millions of users. <br/><br/>
+          exploring how software can scale and handle millions of users. <br/><br/>
           Learning the concept behind real-world systems and how big 
           tech companies solve complex engineering challenges at scale is pretty interesting.
         </p>
@@ -89,7 +89,10 @@ export default function AboutPage() {
 
         <p className={styles.description}>
           Apart from crashing out (programming), you can find me at the gym, hanging out with 
-          my friends, listening to my curated music playlists or playing the digital piano.
+          my friends, listening to my curated music playlists or playing the digital piano. <br/><br/>
+          I used to play a lot of video games in the past (1500+ hours in R6, 
+          nor the 1000+ on Fortnite, nor the 500+ in GTA V... and the list goes on), but I
+          stopped since I spent too much time on them.
         </p>
 
         <p className={styles.photoIntro}>Oh by the way, I also like photography. Here's some photos that I think are cool:</p>

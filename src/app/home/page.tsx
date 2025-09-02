@@ -44,12 +44,12 @@ export default function Home() {
 
           <div className={styles.dreamsContainer}>
             <div className={styles.dreamEmojiContainer}>
-              <span className={styles.dreamEmoji}>✨</span>
+              <span className={styles.dreamEmoji}>💻</span>
               <span className={styles.dreamText}>Intern at Atlassian</span>
             </div>
 
             <div className={styles.dreamEmojiContainer}>
-              <span className={styles.dreamEmoji}>✨</span>
+              <span className={styles.dreamEmoji}>🚀</span>
               <span className={styles.dreamText}>Launch my own startup</span>
             </div>
 

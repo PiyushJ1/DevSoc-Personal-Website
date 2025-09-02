@@ -15,7 +15,7 @@ export default function LandingPage() {
         height={300}
       />
       <Link href="/home" className={styles.div}>
-        Enter My Mind 🌙💫
+        Enter My Dreams 🌙
       </Link>
     </div>
     </>
