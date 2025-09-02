@@ -2,13 +2,12 @@
 
 import styles from "./About.module.css"
 import Link from "next/link";
-import Particles from "@/components/Particles";
 import TiltedCard from "@/components/TiltedCard";
 
 export default function AboutPage() {
   return (
     <>
-    <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }} className={styles.content}>
+    <div className={styles.content}>
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>

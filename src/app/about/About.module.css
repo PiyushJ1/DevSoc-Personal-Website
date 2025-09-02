@@ -1,3 +1,9 @@
+.content {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
 .navbar {
   position: fixed;
   top: 0;
