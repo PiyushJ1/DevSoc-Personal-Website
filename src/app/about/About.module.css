@@ -43,9 +43,9 @@
 }
 
 .sectionContainer {
-  position: relative; 
-  top: auto;          
-  left: auto;        
+  position: relative;
+  top: auto;
+  left: auto;
   transform: none;
   z-index: 1;
   text-align: center;
@@ -61,7 +61,7 @@
   margin-bottom: 1rem;
   background: white;
   background-clip: text;
-  font-family:monospace;
+  font-family: monospace;
   font-style: italic;
 }
 
@@ -94,7 +94,6 @@
 .photoIntro {
   font-family: monospace;
   font-size: 16px;
-  
 }
 
 .photos {

@@ -1,85 +1,95 @@
-'use client'
+"use client";
 
-import styles from "./Home.module.css"
+import styles from "./Home.module.css";
 import Link from "next/link";
 import Particles from "@/components/Particles";
 
 export default function Home() {
   return (
     <>
-    <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-      <header className={styles.navbar}>
-        <div className={styles.navContainer}>
-          <div className={styles.navCentre}>
-            <Link href="/home" className={styles.navLink}>🏠 Home</Link>
-            <Link href="" className={styles.divider}> | </Link>
-            <Link href="/about" className={styles.navLink}>About 💭</Link>
-            <Link href="/projects" className={styles.navLink}>Projects 💡</Link>
-            <Link href="/contact" className={styles.navLink}>Contact 📥</Link>
+      <div style={{ width: "100%", height: "100vh", position: "relative" }}>
+        <header className={styles.navbar}>
+          <div className={styles.navContainer}>
+            <div className={styles.navCentre}>
+              <Link href="/home" className={styles.navLink}>
+                🏠 Home
+              </Link>
+              <Link href="" className={styles.divider}>
+                {" "}
+                |{" "}
+              </Link>
+              <Link href="/about" className={styles.navLink}>
+                About 💭
+              </Link>
+              <Link href="/projects" className={styles.navLink}>
+                Projects 💡
+              </Link>
+              <Link href="/contact" className={styles.navLink}>
+                Contact 📥
+              </Link>
+            </div>
           </div>
+        </header>
+
+        <div
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            textAlign: "center",
+            zIndex: 1,
+          }}
+        >
+          <main className={styles.heroContainer}>
+            <div className={styles.contentCreator}>
+              <h2 className={styles.mainTitle}>
+                Hi, I&apos;m Piyush
+                <span className={styles.bouncyEmoji}>💤</span>
+              </h2>
+
+              <h2>2nd Year Software Engineering (Honours) Student @ UNSW</h2>
+
+              <p style={{ color: "darkgrey" }}>Currently dreaming about:</p>
+
+              <div className={styles.dreamsContainer}>
+                <div className={styles.dreamEmojiContainer}>
+                  <span className={styles.dreamEmoji}>💻</span>
+                  <span className={styles.dreamText}>Intern at Atlassian</span>
+                </div>
+
+                <div className={styles.dreamEmojiContainer}>
+                  <span className={styles.dreamEmoji}>🚀</span>
+                  <span className={styles.dreamText}>
+                    Launch my own startup
+                  </span>
+                </div>
+
+                <div className={styles.dreamEmojiContainer}>
+                  <span className={styles.dreamEmoji}>✨</span>
+                  <span className={styles.dreamText}>
+                    Build something people love
+                  </span>
+                </div>
+              </div>
+            </div>
+          </main>
         </div>
-      </header>
 
-      <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          textAlign: 'center',
-          zIndex: 1,
-        }}
-      >
-        <main className={styles.heroContainer}>
-          <div className={styles.contentCreator}>
-            <h2 className={styles.mainTitle}>
-            Hi, I&apos;m Piyush 
-            <span className={styles.bouncyEmoji}>
-              💤
-            </span>
-          </h2>
-          
-          <h2>2nd Year Software Engineering (Honours) Student @ UNSW</h2>
-
-          <p style={{color: 'darkgrey'}}>Currently dreaming about:</p>
-
-          <div className={styles.dreamsContainer}>
-            <div className={styles.dreamEmojiContainer}>
-              <span className={styles.dreamEmoji}>💻</span>
-              <span className={styles.dreamText}>Intern at Atlassian</span>
-            </div>
-
-            <div className={styles.dreamEmojiContainer}>
-              <span className={styles.dreamEmoji}>🚀</span>
-              <span className={styles.dreamText}>Launch my own startup</span>
-            </div>
-
-            <div className={styles.dreamEmojiContainer}>
-              <span className={styles.dreamEmoji}>✨</span>
-              <span className={styles.dreamText}>Build something people love</span>
-            </div>
-          </div>
-
-          
-          </div>
-        </main>
-      </div>
-
-      <Particles
-        particleColors={['#478c9cff', '#ffd000ff']}
-        particleCount={500}
-        particleSpread={8}
-        speed={0.3}
-        particleBaseSize={100}
-        moveParticlesOnHover={true}
-        alphaParticles={false}
-        disableRotation={false}
-      />
+        <Particles
+          particleColors={["#478c9cff", "#ffd000ff"]}
+          particleCount={500}
+          particleSpread={8}
+          speed={0.3}
+          particleBaseSize={100}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+        />
       </div>
     </>
   );
 }
-
 
 // 'use client'
 
@@ -97,19 +107,18 @@ export default function Home() {
 //           <Link href="/contact" className={styles.navLink}>Contact</Link>
 //         </div>
 //       </div>
-      
+
 //     </header>
 
 //     <main className={styles.heroContainer}>
 //       <div className={styles.contentContainer}>
 
-
 //         <h2 className={styles.subtitle}>
-          
+
 //         </h2>
 
 //         <div className={styles.description}>
-          
+
 //         </div>
 //       </div>
 
@@ -131,7 +140,7 @@ export default function Home() {
 //           Hey! I'm Piyush Jha, a 2nd year Software Engineering (Honours) Student at the University of New South Wales.
 //           I love to tackle challenging problems and creating impactful solutions.
 
-//           Here are a few programming languages and technologies I'm familiar with: 
+//           Here are a few programming languages and technologies I'm familiar with:
 //         </p>
 //         <ul className={styles.skillsList}>
 //           <li>JavaScript/TypeScript</li>
@@ -211,8 +220,8 @@ export default function Home() {
 //         </h2>
 
 //         <p>Since the theme of the website is Dreams, I thought I would quickly mention my own dreams and aspirations for the future.
-//           I want to become a Backend Software Engineer with a focus on system design. Eventually, I wish to 
-//           build and scale a tech startup, focusing on solving a real problem and making a positive impact on the world. 
+//           I want to become a Backend Software Engineer with a focus on system design. Eventually, I wish to
+//           build and scale a tech startup, focusing on solving a real problem and making a positive impact on the world.
 //           Another dream that I have is to be a trainee of DevSoc's training program ;)
 //         </p>
 //       </div>
@@ -228,6 +237,3 @@ export default function Home() {
 //     </>
 //   );
 // }
-
-
-
