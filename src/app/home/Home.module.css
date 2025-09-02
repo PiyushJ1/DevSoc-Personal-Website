@@ -57,55 +57,31 @@
 }
 
 .mainTitle {
-  font-size: 65;
+  font-size: 60px;
   font-weight: 700;
-  min-width: 600px;
+  min-width: 700px;
   background: white;
   background-clip: text;
   animation: fadeIn 0.8s ease-out forwards;
   line-height: 1.2;
   margin-bottom: 1.5rem;
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  filter: drop-shadow(0 0 30px rgba(69, 73, 79, 0.3));
+  filter: drop-shadow(1 2 30px rgba(69, 73, 79, 0.3));
+  font-family: monospace;
 }
 
 .subtitle {
-  font-size: 15;
-  font-weight: 400;
-  min-width: 600px;
-  background: white;
-  background-clip: text;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0.75rem auto 2rem auto;
+  color: white;
+  max-width: 600px;
+  background: rgba(35, 22, 93, 0.563);
+  border-radius: 30px;
+  padding: 0.5rem 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: monospace;
   text-align: center;
-}
-
-.bouncyEmoji {
-  display: inline-block;
-  transition: transform 0.3s ease;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  25% {
-    transform: translateY(-5px) rotate(2deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(-1deg);
-  }
-  75% {
-    transform: translateY(-3px) rotate(1deg);
-  }
+  font-size: 18px;
 }
 
 .dreamEmojiContainer {
@@ -115,13 +91,23 @@
   cursor: pointer;
 }
 
+.dreamTitle {
+  margin-top: 1rem;
+  color: grey;
+  font-style: italic;
+}
+
+.dreamEmoji {
+  font-size: 35px;
+}
+
 .dreamText {
   position: absolute;
   top: -2rem;
   left: 50%;
-  transform: translateX(-50%) translateY(10px);
+  transform: translateX(-50%) translateY(-50px);
   opacity: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: white;
   transition: all 0.3s ease;
   pointer-events: none;
@@ -129,5 +115,5 @@
 
 .dreamEmojiContainer:hover .dreamText {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
+  min-width: 10rem;
 }

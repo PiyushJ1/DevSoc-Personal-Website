@@ -29,6 +29,10 @@ export default function ProjectsPage() {
 
         <div className={styles.sectionContainer}>
           <h2 className={styles.sectionTitle}>Projects 💡</h2>
+
+          <div className={styles.projectCard}>
+            <h2 className={styles.projectTitle}>StudyIntel</h2>
+          </div>
         </div>
       </div>
     </>

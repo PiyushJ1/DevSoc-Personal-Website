@@ -174,13 +174,13 @@ export default function AboutPage() {
             hanging out with my friends, listening to my curated music playlists
             or playing the digital piano. <br />
             <br />I used to play a lot of video games in the past (1500+ hours
-            in R6, nor the 1000+ on Fortnite, nor the 500+ in GTA V... and the
-            list goes on), but I stopped since I spent too much time on them.
+            in R6, 1000+ on Fortnite, 500+ in GTA V... and the list goes on),
+            but I stopped since I wanted to focus on university.
           </p>
 
           <p className={styles.photoIntro}>
             Oh by the way, I also like photography. Here are some cool photos
-            I&apos;ve taken
+            I&apos;ve taken:
           </p>
 
           <div className={styles.photos}>
