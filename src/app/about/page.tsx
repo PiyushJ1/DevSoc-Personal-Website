@@ -27,40 +27,40 @@ export default function AboutPage() {
         <p className={styles.intro}>
           Hey! My name is Piyush Jha, and I'm a second-year student at the {" "}
           <a style={{fontStyle: 'italic', textDecoration: 'underline'}} href="https://unsw.edu.au" target="blank">University of New South Wales</a>
-          . I love to tackle challenging technical problems and create impactful
+          . I love to tackle challenging technical problems and creating impactful
           solutions. 
         </p>
 
         <div
-  style={{
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '1rem',
-    justifyContent: 'center',
-    marginTop: '1rem',
-    marginBottom: '3rem',
-  }}
->
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    <TiltedCard
-      imageSrc="/me.png"
-      altText=""
-      captionText=""
-      containerHeight="400px"
-      containerWidth="400px"
-      imageHeight="400px"
-      imageWidth="400px"
-      rotateAmplitude={12}
-      scaleOnHover={1.0}
-      showMobileWarning={false}
-      showTooltip={false}
-      displayOverlayContent={true}
-    />
-    <p style={{ textAlign: 'center', color: 'white', maxWidth: '400px', marginTop: '0.5rem' }}>
-      Here's me with my friend. (I'm on the left)
-    </p>
-  </div>
-</div>
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '1rem',
+            justifyContent: 'center',
+            marginTop: '1rem',
+            marginBottom: '3rem',
+          }}
+        >
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <TiltedCard
+              imageSrc="/me.png"
+              altText=""
+              captionText=""
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="400px"
+              imageWidth="400px"
+              rotateAmplitude={12}
+              scaleOnHover={1.0}
+              showMobileWarning={false}
+              showTooltip={false}
+              displayOverlayContent={true}
+            />
+            <p style={{ fontFamily: 'monospace', fontSize: '14px', textAlign: 'center', color: 'white', maxWidth: '400px', marginTop: '0.5rem' }}>
+              Here's me with my friend (I'm on the left)
+            </p>
+          </div>
+        </div>
 
 
 
@@ -121,6 +121,52 @@ export default function AboutPage() {
             showTooltip={false}
             displayOverlayContent={false}
           />
+
+          <TiltedCard
+            imageSrc="/1.png"
+            altText=""
+            captionText=""
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={20}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
+          />
+
+          <TiltedCard
+            imageSrc="/3.png"
+            altText=""
+            captionText=""
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={20}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
+          />
+
+          <TiltedCard
+            imageSrc="/5.png"
+            altText=""
+            captionText=""
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={20}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
+          />
+
 
             
             
