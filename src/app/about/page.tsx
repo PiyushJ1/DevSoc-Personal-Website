@@ -22,22 +22,66 @@ export default function AboutPage() {
       </header>
       
       <div className={styles.sectionContainer}>        
-        <h2 className={styles.sectionTitle}>About Me</h2>
+        <h2 className={styles.sectionTitle}>About Me 🌌</h2>
 
         <p className={styles.intro}>
-          Hey! My name is Piyush Jha, and I'm a second-year student at the University
-          of New South Wales. I love to tackle challenging technical problems and create impactful
+          Hey! My name is Piyush Jha, and I'm a second-year student at the {" "}
+          <a style={{fontStyle: 'italic', textDecoration: 'underline'}} href="https://unsw.edu.au" target="blank">University of New South Wales</a>
+          . I love to tackle challenging technical problems and create impactful
           solutions. 
         </p>
 
+        <div
+  style={{
+    display: 'flex',
+    flexWrap: 'wrap',
+    gap: '1rem',
+    justifyContent: 'center',
+    marginTop: '1rem',
+    marginBottom: '3rem',
+  }}
+>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <TiltedCard
+      imageSrc="/me.png"
+      altText=""
+      captionText=""
+      containerHeight="400px"
+      containerWidth="400px"
+      imageHeight="400px"
+      imageWidth="400px"
+      rotateAmplitude={12}
+      scaleOnHover={1.0}
+      showMobileWarning={false}
+      showTooltip={false}
+      displayOverlayContent={true}
+    />
+    <p style={{ textAlign: 'center', color: 'white', maxWidth: '400px', marginTop: '0.5rem' }}>
+      Here's me with my friend. (I'm on the left)
+    </p>
+  </div>
+</div>
+
+
+
         <p className={styles.description}>
           I'm passionate about software development, particularly in web and cloud
-          technologies. I also enjoy learning about system design.
+          technologies. I also enjoy learning about system design and how software systems can
+          be built to handle large scale demands.
         </p>
 
         <p className={styles.description}>
-          Some programming languages and tools I'm familiar with are:<br/>
-          - JavaScript/TypeScript<br/>- Node.js <br/>- Express. js <br/>- Next.js <br/>- PostgreSQL <br/>- C <br/>- Java (just started) <br/>- Git
+          Some programming languages and frameworks/tools I'm familiar with are:<br/>
+          <div style={{ display: 'flex', marginTop: '1rem', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/C.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" style={{ width: '50px', height: '50px' }} />
+            <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg" style={{ width: '50px', height: '50px' }} />
+          </div>
         </p>        
 
         <p className={styles.description}>
