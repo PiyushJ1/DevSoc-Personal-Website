@@ -2,14 +2,22 @@
 
 import styles from "./Landing.module.css"
 import Link from "next/link";
+import Image from "next/image";
 
 export default function LandingPage() {
   return (
     <>
-      {/* <Link href="/home" className={styles.div}>Enter My Dreams</Link> */}
-      <Link href="/home" style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",}}>
+    <div className={styles.container}>
+      <Image className={styles.sleepImg}
+        src="/sleep.png"
+        alt="sleeping cartoon"
+        width={400}
+        height={300}
+      />
+      <Link href="/home" className={styles.div}>
         Enter My Dreams
       </Link>
+    </div>
     </>
   );
 }
