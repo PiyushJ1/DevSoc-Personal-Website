@@ -95,3 +95,26 @@
   75% { transform: translateY(-3px) rotate(1deg); }
 }
 
+.dreamEmojiContainer {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.dreamText {
+  position: absolute;
+  top: -2rem; /* adjust for where you want it */
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  font-size: 0.9rem;
+  color: white;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.dreamEmojiContainer:hover .dreamText {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

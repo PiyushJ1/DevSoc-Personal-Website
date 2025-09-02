@@ -32,13 +32,33 @@ export default function Home() {
         <main className={styles.heroContainer}>
           <div className={styles.contentCreator}>
             <h2 className={styles.mainTitle}>
-            Hi, I'm Piyush 
+            Hi, I&apos;m Piyush 
             <span className={styles.bouncyEmoji}>
               💤
             </span>
           </h2>
           
           <h2>2nd Year Software Engineering (Honours) Student @ UNSW</h2>
+
+          <p style={{color: 'darkgrey'}}>Currently dreaming about:</p>
+
+          <div className={styles.dreamsContainer}>
+            <div className={styles.dreamEmojiContainer}>
+              <span className={styles.dreamEmoji}>✨</span>
+              <span className={styles.dreamText}>Intern at Atlassian</span>
+            </div>
+
+            <div className={styles.dreamEmojiContainer}>
+              <span className={styles.dreamEmoji}>✨</span>
+              <span className={styles.dreamText}>Launch my own startup</span>
+            </div>
+
+            <div className={styles.dreamEmojiContainer}>
+              <span className={styles.dreamEmoji}>✨</span>
+              <span className={styles.dreamText}>Build something people love</span>
+            </div>
+          </div>
+
           
           </div>
         </main>

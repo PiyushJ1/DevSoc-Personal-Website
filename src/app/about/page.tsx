@@ -8,7 +8,7 @@ import TiltedCard from "@/components/TiltedCard";
 export default function AboutPage() {
   return (
     <>
-    <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+    <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }} className={styles.content}>
 
       <header className={styles.navbar}>
         <div className={styles.navContainer}>
@@ -24,132 +24,64 @@ export default function AboutPage() {
       <div className={styles.sectionContainer}>        
         <h2 className={styles.sectionTitle}>About Me</h2>
 
-        <p className={styles.description}>
+        <p className={styles.intro}>
           Hey! My name is Piyush Jha, and I'm a second-year student at the University
-          of New South Wales. I love to tackle challenging problems and create impactful
-          solutions. I'm passionate about software development, particularly in web technologies
-          and system design. Here are a few programming languages and skills I'm familiar with:
+          of New South Wales. I love to tackle challenging technical problems and create impactful
+          solutions. 
         </p>
 
-        <p>JavaScript/TypeScript
-          Node.js
-          Next.js
-          PostgreSQL
-          Prisma
-          C
-          Git</p>
-          
-          
-        When I'm not coding (rotting), you can find me at the gym, hanging out with 
-        my friends, listening to my curated music playlists or playing the digital piano.
-        Some of my favourite music albums are:
+        <p className={styles.description}>
+          I'm passionate about software development, particularly in web and cloud
+          technologies. I also enjoy learning about system design.
+        </p>
 
-        <div className={styles.albumCovers}>
+        <p className={styles.description}>
+          Some programming languages and tools I'm familiar with are:<br/>
+          - JavaScript/TypeScript<br/>- Node.js <br/>- Express. js <br/>- Next.js <br/>- PostgreSQL <br/>- C <br/>- Java (just started) <br/>- Git
+        </p>        
 
-        </div>
+        <p className={styles.description}>
+          Apart from crashing out (programming), you can find me at the gym, hanging out with 
+          my friends, listening to my curated music playlists or playing the digital piano.
+        </p>
 
+        <p>Oh by the way, I also like photography. Here's some photos that I think are cool:</p>
 
-        <div className={styles.photoPics}>
-        
-
-        <TiltedCard
-          imageSrc="https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507"
-          altText=""
-          captionText=""
-          containerHeight="300px"
-          containerWidth="300px"
-          imageHeight="150px"
-          imageWidth="150px"
-          rotateAmplitude={12}
-          scaleOnHover={1.1}
-          showMobileWarning={false}
-          showTooltip={false}
-          displayOverlayContent={true}
-          overlayContent={
-            <p style={{color: 'black'}} className="tilted-card-demo-text px-3 py-1 text-black font-bold">
-              What A Time To Be Alive - Drake, Future
-            </p>
-          }
-          />
-
-        <TiltedCard
-          imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRup8qV6TqHYDsD2OWtotGk6uJBF-H4Xnq4Q&s"
-          altText=""
-          captionText=""
-          containerHeight="300px"
-          containerWidth="300px"
-          imageHeight="150px"
-          imageWidth="150px"
-          rotateAmplitude={12}
-          scaleOnHover={1.1}
-          showMobileWarning={false}
-          showTooltip={false}
-          displayOverlayContent={true}
-          overlayContent={
-            <p className="tilted-card-demo-text px-4 py-1 text-black font-bold">
-              ASTROWORLD - Travis Scott
-            </p>
-          }
-          />
-  
-        <TiltedCard
-          imageSrc="https://i.scdn.co/image/ab67616d0000b2736cfa297b0178fd91dca5c4f1"
-          altText=""
-          captionText=""
-          containerHeight="300px"
-          containerWidth="300px"
-          imageHeight="150px"
-          imageWidth="150px"
-          rotateAmplitude={12}
-          scaleOnHover={1.1}
-          showMobileWarning={false}
-          showTooltip={false}
-          displayOverlayContent={true}
-          overlayContent={
-            <p style={{color: 'white', fontSize: '0.8rem'}} className="tilted-card-demo-text px-1 py-1 text-white font-bold">
-              PARTYNEXTDOOR TWO - PARTYNEXTDOOR
-            </p>
-          }
+        <div className={styles.photos}>
+          <TiltedCard
+            imageSrc="/city.png"
+            altText=""
+            captionText=""
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={20}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
           />
 
           <TiltedCard
-          imageSrc="https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Graduation_%28album%29.jpg/250px-Graduation_%28album%29.jpg"
-          altText=""
-          captionText=""
-          containerHeight="300px"
-          containerWidth="300px"
-          imageHeight="150px"
-          imageWidth="150px"
-          rotateAmplitude={12}
-          scaleOnHover={1.1}
-          showMobileWarning={false}
-          showTooltip={false}
-          displayOverlayContent={true}
-          overlayContent={
-            <p style={{color: 'white', fontSize: '0.8rem'}} className="tilted-card-demo-text px-1 py-1 text-white font-bold">
-              Graduation - Kanye West
-            </p>
-          }
+            imageSrc="/ranchi.png"
+            altText=""
+            captionText=""
+            containerHeight="300px"
+            containerWidth="300px"
+            imageHeight="200px"
+            imageWidth="200px"
+            rotateAmplitude={20}
+            scaleOnHover={1.2}
+            showMobileWarning={false}
+            showTooltip={false}
+            displayOverlayContent={false}
           />
+
+            
+            
         </div>
-
-          
-          I also enjoy photography. Here are some of my favourite pictures that I have taken:
-
-        
       </div>
-
-      <Particles
-        particleColors={['#478c9cff', '#ffd000ff']}
-        particleCount={500}
-        particleSpread={8}
-        speed={0.3}
-        particleBaseSize={100}
-        moveParticlesOnHover={false}
-        alphaParticles={false}
-        disableRotation={false}
-      />
-
     </div>
     </>
   );
