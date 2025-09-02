@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className={styles.navContainer}>
           <div className={styles.navCentre}>
             <Link href="/home" className={styles.navLink}>🏠 Home</Link>
-            <Link href="" className={styles.divider}> | </Link>
+            <span className={styles.divider}> | </span>
             <Link href="/about" className={styles.navLink}>About 💭</Link>
             <Link href="/projects" className={styles.navLink}>Projects 💡</Link>
             <Link href="/contact" className={styles.navLink}>Contact 📥</Link>
@@ -174,6 +174,8 @@ export default function AboutPage() {
           />
         </div>
       </div>
+
+      
     </div>
     </>
   );
