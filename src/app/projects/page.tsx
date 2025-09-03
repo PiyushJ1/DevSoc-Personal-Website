@@ -80,6 +80,40 @@ export default function ProjectsPage() {
               </p>
             </p>
           </div>
+
+          <div className={styles.projectCard}>
+            <h2 className={styles.projectTitle}>SQLite Replica</h2>
+            <div>
+              <a
+                href="https://github.com/PiyushJ1/SQLite-C-Database"
+                target="blank"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub Repo
+              </a>
+            </div>
+
+            <p className={styles.projectDescription}>
+              Replicating the core of a SQLite database from scratch using C to
+              learn more about databases and raw data management.
+              <br />
+              <br />
+              <span className="font-semibold">Exploring concepts like:</span>
+              <br />
+              - Low-level memory management
+              <br />
+              - Systems programming
+              <br />
+              <br />
+              <span className="font-semibold">Tech Stack:</span>
+              <p className={styles.techStack}>
+                <img
+                  src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"
+                  alt="C"
+                />
+              </p>
+            </p>
+          </div>
         </div>
       </div>
     </>
