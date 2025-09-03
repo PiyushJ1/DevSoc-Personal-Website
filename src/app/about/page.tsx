@@ -33,8 +33,8 @@ export default function AboutPage() {
           <h2 className={styles.sectionTitle}>About Me</h2>
 
           <p className={styles.intro}>
-            Hey! My name is Piyush Jha and I&apos;m 19 years old. Currently,
-            I&apos;m a second-year Software Engineering student at the{" "}
+            Hey! My name is Piyush Jha and I&apos;m 19 years old. I&apos;m a
+            second-year Software Engineering student at the{" "}
             <a
               style={{ fontStyle: "italic", textDecoration: "underline" }}
               href="https://unsw.edu.au"
