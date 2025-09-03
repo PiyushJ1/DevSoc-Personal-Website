@@ -31,7 +31,7 @@ html,
   min-height: 100vh;
   background: linear-gradient(145deg, #000000, #0f012f, #006e56);
   background-size: 400% 400%;
-  animation: aurora 15s ease infinite;
+  animation: aurora 12s ease infinite;
 }
 
 @keyframes aurora {
