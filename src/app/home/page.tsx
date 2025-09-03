@@ -52,8 +52,7 @@ export default function Home() {
                 <div className={styles.dreamEmojiContainer}>
                   <span className={styles.dreamEmoji}>💻</span>
                   <span className={styles.dreamText}>
-                    Becoming a Backend Software Engineer focusing on system
-                    design
+                    Interning at Atlassian as a Software Engineer
                   </span>
                 </div>
 
@@ -67,7 +66,8 @@ export default function Home() {
                 <div className={styles.dreamEmojiContainer}>
                   <span className={styles.dreamEmoji}>✨</span>
                   <span className={styles.dreamText}>
-                    Being a trainee at DevSoc&apos;s 25T3 Training Program ;{")"}
+                    Being a trainee at DevSoc&apos;s 25T3 Training Program ;
+                    {")"}
                   </span>
                 </div>
               </div>

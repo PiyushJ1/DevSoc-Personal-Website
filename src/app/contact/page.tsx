@@ -31,7 +31,7 @@ export default function ContactPage() {
           <h2 className={styles.sectionTitle}>Contact 💬</h2>
 
           <p className={styles.contact}>
-            Enjoyed my dreams? Let&apos;s get in touch!
+            Enjoyed entering my dreams? Let&apos;s get in touch!
           </p>
           <p className={styles.description}>
             Email:{" "}

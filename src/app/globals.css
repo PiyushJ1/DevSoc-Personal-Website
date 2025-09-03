@@ -29,9 +29,9 @@ html,
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: linear-gradient(145deg, #000000, #0f012f, #006e56);
+  background: linear-gradient(120deg, #000000, #0f0131, #302101);
   background-size: 400% 400%;
-  animation: aurora 12s ease infinite;
+  animation: aurora 9s ease infinite;
 }
 
 @keyframes aurora {
