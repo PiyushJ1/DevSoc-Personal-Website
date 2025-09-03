@@ -11,7 +11,7 @@ export default function ProjectsPage() {
           <div className={styles.navContainer}>
             <div className={styles.navCentre}>
               <Link href="/home" className={styles.navLink}>
-                🏠 Home
+                Home
               </Link>
               <span className={styles.divider}> | </span>
               <Link href="/about" className={styles.navLink}>
@@ -21,7 +21,7 @@ export default function ProjectsPage() {
                 Projects 💡
               </Link>
               <Link href="/contact" className={styles.navLink}>
-                Contact 📥
+                Contact 💬
               </Link>
             </div>
           </div>

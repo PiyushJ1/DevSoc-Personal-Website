@@ -12,7 +12,7 @@ export default function Home() {
           <div className={styles.navContainer}>
             <div className={styles.navCentre}>
               <Link href="/home" className={styles.navLink}>
-                🏠 Home
+                Home
               </Link>
               <span className={styles.divider}> | </span>
               <Link href="/about" className={styles.navLink}>
@@ -22,7 +22,7 @@ export default function Home() {
                 Projects 💡
               </Link>
               <Link href="/contact" className={styles.navLink}>
-                Contact 📥
+                Contact 💬
               </Link>
             </div>
           </div>
