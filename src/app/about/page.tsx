@@ -46,53 +46,6 @@ export default function AboutPage() {
             impactful solutions.
           </p>
 
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "1rem",
-              justifyContent: "center",
-              marginTop: "1rem",
-              marginBottom: "3rem",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
-              <TiltedCard
-                imageSrc="/me.png"
-                altText=""
-                captionText=""
-                containerHeight="400px"
-                containerWidth="400px"
-                imageHeight="400px"
-                imageWidth="400px"
-                rotateAmplitude={12}
-                scaleOnHover={1.0}
-                showMobileWarning={false}
-                showTooltip={false}
-                displayOverlayContent={true}
-              />
-              <p
-                style={{
-                  fontFamily: "monospace",
-                  fontSize: "14px",
-                  textAlign: "center",
-                  color: "white",
-                  maxWidth: "400px",
-                  marginTop: "0.5rem",
-                }}
-              >
-                Here&apos;s me with my friend (I&apos;m on the left, sorry I
-                couldn&apos;t find a better picture 😭)
-              </p>
-            </div>
-          </div>
-
           <p className={styles.description}>
             I&apos;m passionate about software development, particularly in web
             and cloud technologies. I also really like system design and
@@ -174,8 +127,9 @@ export default function AboutPage() {
             hanging out with my friends, listening to my curated music playlists
             or playing the digital piano. <br />
             <br />I used to play a lot of video games in the past (1500+ hours
-            in R6, 1000+ on Fortnite, 500+ in GTA V... and the list goes on),
-            but I have mostly stopped since then.
+            in R6, 1000+ on Fortnite, 500+ in GTA V and the list goes on), but I
+            have mostly stopped since then to be more productive (I watch
+            Instagram reels now).
           </p>
 
           <p className={styles.photoIntro}>
@@ -201,6 +155,21 @@ export default function AboutPage() {
 
             <TiltedCard
               imageSrc="/ranchi.png"
+              altText=""
+              captionText=""
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
+              rotateAmplitude={0}
+              scaleOnHover={1.2}
+              showMobileWarning={false}
+              showTooltip={false}
+              displayOverlayContent={false}
+            />
+
+            <TiltedCard
+              imageSrc="/6.png"
               altText=""
               captionText=""
               containerHeight="400px"
