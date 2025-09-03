@@ -34,7 +34,7 @@ export default function AboutPage() {
 
           <p className={styles.intro}>
             Hey! My name is Piyush Jha and I&apos;m 19 years old. Currently,
-            I&apos;m a second-year Software Engineering (Honours) student at the{" "}
+            I&apos;m a second-year Software Engineering student at the{" "}
             <a
               style={{ fontStyle: "italic", textDecoration: "underline" }}
               href="https://unsw.edu.au"
@@ -175,7 +175,7 @@ export default function AboutPage() {
             or playing the digital piano. <br />
             <br />I used to play a lot of video games in the past (1500+ hours
             in R6, 1000+ on Fortnite, 500+ in GTA V... and the list goes on),
-            but I stopped since I wanted to focus on university.
+            but I have mostly stopped since then.
           </p>
 
           <p className={styles.photoIntro}>
@@ -188,11 +188,11 @@ export default function AboutPage() {
               imageSrc="/city.png"
               altText=""
               captionText=""
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="200px"
-              imageWidth="200px"
-              rotateAmplitude={20}
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
+              rotateAmplitude={0}
               scaleOnHover={1.2}
               showMobileWarning={false}
               showTooltip={false}
@@ -203,11 +203,11 @@ export default function AboutPage() {
               imageSrc="/ranchi.png"
               altText=""
               captionText=""
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="200px"
-              imageWidth="200px"
-              rotateAmplitude={20}
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
+              rotateAmplitude={0}
               scaleOnHover={1.2}
               showMobileWarning={false}
               showTooltip={false}
@@ -218,11 +218,11 @@ export default function AboutPage() {
               imageSrc="/1.png"
               altText=""
               captionText=""
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="200px"
-              imageWidth="200px"
-              rotateAmplitude={20}
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
+              rotateAmplitude={0}
               scaleOnHover={1.2}
               showMobileWarning={false}
               showTooltip={false}
@@ -233,11 +233,11 @@ export default function AboutPage() {
               imageSrc="/3.png"
               altText=""
               captionText=""
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="200px"
-              imageWidth="200px"
-              rotateAmplitude={20}
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
+              rotateAmplitude={0}
               scaleOnHover={1.2}
               showMobileWarning={false}
               showTooltip={false}
@@ -248,10 +248,10 @@ export default function AboutPage() {
               imageSrc="/5.png"
               altText=""
               captionText=""
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="200px"
-              imageWidth="200px"
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="300px"
+              imageWidth="300px"
               rotateAmplitude={0}
               scaleOnHover={1.2}
               showMobileWarning={false}
