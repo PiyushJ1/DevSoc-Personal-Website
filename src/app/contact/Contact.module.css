@@ -42,6 +42,10 @@
   font-weight: 700;
 }
 
+.navLink:hover {
+  color: rgb(222, 186, 7);
+}
+
 .sectionContainer {
   position: relative;
   top: auto;

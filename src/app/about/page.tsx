@@ -13,24 +13,24 @@ export default function AboutPage() {
           <div className={styles.navContainer}>
             <div className={styles.navCentre}>
               <Link href="/home" className={styles.navLink}>
-                Home
+                Home 🌌
               </Link>
               <span className={styles.divider}> | </span>
               <Link href="/about" className={styles.navLink}>
-                About 💭
+                About 🌟
               </Link>
               <Link href="/projects" className={styles.navLink}>
-                Projects 💡
+                Projects ✨
               </Link>
               <Link href="/contact" className={styles.navLink}>
-                Contact 💬
+                Contact 🌙
               </Link>
             </div>
           </div>
         </header>
 
         <div className={styles.sectionContainer}>
-          <h2 className={styles.sectionTitle}>About Me 💭</h2>
+          <h2 className={styles.sectionTitle}>About Me</h2>
 
           <p className={styles.intro}>
             Hey! My name is Piyush Jha and I&apos;m 19 years old. Currently,

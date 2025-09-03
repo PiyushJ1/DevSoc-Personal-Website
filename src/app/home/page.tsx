@@ -12,17 +12,17 @@ export default function Home() {
           <div className={styles.navContainer}>
             <div className={styles.navCentre}>
               <Link href="/home" className={styles.navLink}>
-                Home
+                Home 🌌
               </Link>
               <span className={styles.divider}> | </span>
               <Link href="/about" className={styles.navLink}>
-                About 💭
+                About 🌟
               </Link>
               <Link href="/projects" className={styles.navLink}>
-                Projects 💡
+                Projects ✨
               </Link>
               <Link href="/contact" className={styles.navLink}>
-                Contact 💬
+                Contact 🌙
               </Link>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
         >
           <main className={styles.heroContainer}>
             <div className={styles.contentCreator}>
-              <h2 className={styles.mainTitle}>Hi, I&apos;m Piyush 💤</h2>
+              <h2 className={styles.mainTitle}>Hi! I&apos;m Piyush</h2>
 
               <h2 className={styles.subtitle}>
                 2nd Year Software Engineering (Honours) Student @ UNSW

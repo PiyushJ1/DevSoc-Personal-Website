@@ -27,6 +27,10 @@
   max-width: none;
 }
 
+.navLink:hover {
+  color: rgb(222, 186, 7);
+}
+
 .divider {
   font-size: 18px;
 }
