@@ -72,12 +72,6 @@ export default function AboutPage() {
               }}
             >
               <Image
-                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/C.svg"
-                alt="C"
-                width={50}
-                height={50}
-              />
-              <Image
                 src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg"
                 alt="JavaScript"
                 width={50}
@@ -85,6 +79,12 @@ export default function AboutPage() {
               />
               <Image
                 src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg"
+                alt="TypeScript"
+                width={50}
+                height={50}
+              />
+              <Image
+                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg"
                 alt="TypeScript"
                 width={50}
                 height={50}
@@ -108,14 +108,20 @@ export default function AboutPage() {
                 height={50}
               />
               <Image
-                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg"
-                alt="Git"
+                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/C.svg"
+                alt="C"
                 width={50}
                 height={50}
               />
               <Image
                 src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg"
                 alt="Java"
+                width={50}
+                height={50}
+              />
+              <Image
+                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg"
+                alt="Git"
                 width={50}
                 height={50}
               />
