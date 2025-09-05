@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.dreamEmojiContainer}>
-                  <span className={styles.dreamEmoji}>🚀</span>
+                  <span className={styles.dreamEmoji}>💻</span>
                   <span className={styles.dreamText}>
                     Launching my own tech startup and going all in
                   </span>
