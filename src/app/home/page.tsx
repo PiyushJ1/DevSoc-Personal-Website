@@ -50,9 +50,9 @@ export default function Home() {
 
               <div className={styles.dreamsContainer}>
                 <div className={styles.dreamEmojiContainer}>
-                  <span className={styles.dreamEmoji}>💻</span>
+                  <span className={styles.dreamEmoji}>✈️</span>
                   <span className={styles.dreamText}>
-                    Interning at Atlassian as a Software Engineer
+                    Living in San Francisco
                   </span>
                 </div>
 
